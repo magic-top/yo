@@ -1,0 +1,304 @@
+<style>
+            body {
+                 background-color: #b7f8efe7;
+      font-family: Arial, sans-serif;
+            }
+            .sora {
+                border: 5px solid #333;        /* Add a solid border */
+      border-radius: 15px;           /* Rounded corners */
+      width: 300px;                  /* Set image width */
+      box-shadow: 0 4px 8px rgba(60, 0, 0, 0.2); /* Optional: shadow */
+      filter: drop-shadow(5px 5px 10px orange);
+            }
+            .css {
+                border: 5px solid #333;        /* Add a solid border */
+      border-radius: 15px;           /* Rounded corners */
+      width: 300px;                  /* Set image width */
+      box-shadow: 0 4px 8px rgba(60, 0, 0, 0.2); /* Optional: shadow */
+      filter: drop-shadow(5px 5px 10px blue);
+            }
+            .java {
+                border: 5px solid #333;        /* Add a solid border */
+      border-radius: 15px;           /* Rounded corners */
+      width: 300px;                  /* Set image width */
+      box-shadow: 0 4px 8px rgba(3, 0, 60, 0.2); /* Optional: shadow */
+      filter: drop-shadow(5px 5px 10px yellow);
+            }
+            .kitaba {
+                text-align: center; /* This centers the text horizontally */
+      font-size: 24px;    /* Optional: adjust font size */
+      color: #253746;        /* Optional: change text color */
+      font-weight: bolder;
+      margin-bottom: auto;
+      width: 70%;
+      padding: -10px;
+      text-shadow: 1px 1px 10px rgb(0, 0, 0);
+      transform: scale(2);
+      margin-top: 70px;
+      animation-name: kotob;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+            }
+            .tasgil {
+                text-align: right; /* This centers the text horizontally */
+      font-size: 24px;    /* Optional: adjust font size */
+      color: #253746;        /* Optional: change text color */
+      transition: color 0.3s;
+      background-color: rgb(125, 131, 160); /* Change this to any color */
+      padding: 5px;              /* Optional: Adds space around the text */
+      border-radius: 70px;
+      box-shadow: 60px;
+      text-shadow: 1px 1px 5px rgb(122, 122, 203);
+            }
+            .tasgil:hover {
+                color: white;
+            }
+            .login {
+                text-align: right;
+                margin: 0%;
+                 transition: color 0.3s;
+                 color: #253746;
+                 text-shadow: 1px 1px 5px rgb(59, 59, 94);
+            }
+            .login:hover {
+                color: white;
+            }
+            #fg {
+                display: inline;
+            }
+            ::selection{
+                color: aquamarine;
+                background-color: rgb(125, 177, 194);
+            }
+            .hh2 {
+                filter: drop-shadow(5px 5px 10px black);
+                animation-name: mohim;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+            .hh3 {
+                filter: drop-shadow(5px 5px 10px orange);
+                animation-name: html5;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+            .hhcss {
+                filter: drop-shadow(5px 5px 10px blue);
+                animation-name: css3;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+            .hhjava {
+                filter: drop-shadow(5px 5px 10px yellow);
+                animation-name: javapro;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+            .now1 {
+                margin-left: 150px;
+                margin-bottom: 40px;
+                padding: 30px;
+                border-radius: 60px;
+                filter: drop-shadow(10px 10px 17px tomato);
+                font-weight: bold;
+                background-color: #ff8331;
+                font-size: large;
+            }
+            .now2 {
+                margin-left: 150px;
+                margin-bottom: 50px;
+                padding: 30px;
+                border-radius: 60px;
+                filter: drop-shadow(10px 10px 17px rgb(27, 146, 214));
+                font-weight: bold;
+                background-color: #00e7c8e7;
+                font-size: large;
+            }
+            .now3 {
+                margin-left: 150px;
+                margin-bottom: 50px;
+                padding: 20px;
+                border-radius: 60px;
+                filter: drop-shadow(10px 10px 17px rgb(227, 243, 13));
+                font-weight: bold;
+                background-color: #e3ff7c;
+                font-size: large;
+            }
+        #dars {
+            margin-left: 800px;
+            max-width:  10cm;
+            height: 10cm;
+            border-radius: 40px;
+            border-color: gray;
+            filter: drop-shadow(10px 10px 15px gray);
+            margin-bottom: 30px;
+            height: 7cm;
+            transform: scale(1.4);
+        }
+        .car {
+      width: 200px;
+      height: 60px;
+      background: red;
+      border-radius: 15px 15px 5px 5px;
+      margin-left: auto; /* Push to the right */
+      margin-top: 200px;
+      position: relative;
+    }
+
+    .car::before {
+      content: '';
+      position: absolute;
+      top: -40px;
+      left: 30px;
+      width: 140px;
+      height: 40px;
+      background: red;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .window {
+      position: absolute;
+      top: -35px;
+      width: 40px;
+      height: 30px;
+      background: lightblue;
+      border-radius: 5px;
+    }
+
+    .window.left {
+      left: 35px;
+    }
+
+    .window.right {
+      right: 35px;
+    }
+
+    .wheel {
+      position: absolute;
+      bottom: -20px;
+      width: 40px;
+      height: 40px;
+      background: black;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.5s;
+    }
+
+    .wheel.left {
+      left: 20px;
+    }
+
+    .wheel.right {
+      right: 20px;
+    }
+
+    .dot-center {
+      width: 6px;
+      height: 6px;
+      background: white;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 2;
+    }
+
+    .dot {
+      width: 4px;
+      height: 4px;
+      background: white;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .dot:nth-child(2) { top: 5px; left: 18px; }
+    .dot:nth-child(3) { top: 18px; left: 5px; }
+    .dot:nth-child(4) { top: 18px; left: 31px; }
+    .dot:nth-child(5) { top: 31px; left: 18px; }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .car:hover .wheel {
+      animation: spin 0.5s linear infinite;
+    }
+    @keyframes mohim {
+        from{color: antiquewhite;}
+        to{color: #253746;}
+    }
+    @keyframes html5 {
+        from{color: #ec9961;}
+        to{color: #ff8331;}
+    }
+    @keyframes css3 {
+        from{color: aqua;}
+        to{color: rgb(67, 129, 253);}
+    }
+    @keyframes javapro {
+        from{color: hsl(73, 100%, 40%);}
+        to{color: #84a708;}
+    }
+    @keyframes kotob {
+        from{color: rgb(150, 179, 179);}
+        to{color: rgb(55, 58, 58);}
+    }
+    .form-container {
+      background: rgb(109, 177, 194);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #67d3cd;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.5s;
+    }
+
+    button:hover {
+      background-color: hsl(185, 23%, 11%);
+    }
+
+    p {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #a8cef7;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .hidden {
+      display: none;
+    }
+        </style>
